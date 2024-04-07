@@ -95,7 +95,7 @@ public class Main {
         }
         return minSalaryEmployee;
     }
-    private static Employee getMaxSalaryEmployeeDepart(Employee[] employees, int department){
+    private static Employee getMaxSalaryEmployeeDepart(Employee[] employees, int department) {
         Employee maxSalaryEmployee = null;
         for (Employee employee : employees) {
             if (employee.getDepartment() == department && (maxSalaryEmployee == null || employee.getSalary() > maxSalaryEmployee.getSalary())) {
